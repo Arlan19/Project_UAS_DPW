@@ -1,0 +1,324 @@
+.logo{
+    width: 81px;
+    border-radius: 100px;
+    margin-top: 0px;
+}
+
+.logoPaket{
+    width: 190px;
+    border-style: solid;
+    border-color: #C7DAC1;
+    border-width: 8px;
+}
+
+
+.navbar-nav{
+    margin-left: 600px;
+}
+
+.navbar-nav a{
+    margin-right: 40px;
+    font-size: large;
+    color: #362706;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav-edit{
+    text-decoration: none;
+    margin: 22px 0px;
+}
+
+.Home .container-fluid{
+    background: url(/frontend/image/Olive\ Green\ Photocentric\ Travel\ Bio\ Link\ Website.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1Home{
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    font-size: 64px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+
+.tagline{
+    padding-bottom: 40px;
+}
+
+.tagline-Para{
+    color: white;
+    font-family: 'Imprima', sans-serif;
+    font-size: 24px;
+}
+
+.ColList-title .container-fluid{
+    background-color: #C0CBA9;
+}
+
+.ColList-para{
+    font-family: 'IM Fell English SC', serif;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.form-input {
+    padding-left: 246px;
+    padding-right: 246px;
+    margin-bottom: 20px;
+}
+
+.form-input input {
+    width: 100%;
+    height: 45px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: 1px solid #00000000;
+    border-radius: 50px;
+    outline: none;
+    background: white;
+}
+
+.form-input span {
+    position: relative;
+    top: 39px;
+    font-size: 25px;
+    padding-left: 0px;
+    float: right;
+    padding-right: 25px;
+    color: black;
+}
+
+.form-input input::placeholder {
+    color: #454b69;
+    padding-left: 0px;
+}
+
+
+.form-input input:focus,
+.form-input input:valid {
+border: 2px solid #007acc;
+}
+
+.form-input input:focus::placeholder {
+    color: black;
+}
+
+
+.navigasi{
+    background-color: white;
+}
+
+.btn-edit{
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+.head-kat{
+    margin-top: 40px;
+}
+.h5-edit{
+    color: #828282;
+}
+.text-edit{
+    padding: 0px 25px;
+}
+.marketplace a{
+    text-decoration: none;
+    padding: 0px 15px;
+    color: #828282;
+}
+.h2-edit{
+    color: #444444;
+}
+.MoreInfo{
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+
+.h2CollectionList{
+    font-family: 'Imprima', sans-serif;
+}
+
+.paket23{
+    background-image: url(/frontend/image/Ellipse\ 1.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 120px;
+}
+.paket1{
+    background-image: url(/frontend/image/Rectangle\ 54.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 26px;
+}
+.paket1v2{
+    background-image: url(/frontend/image/Rectangle\ 53.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ColListDescript{
+    font-family: 'Imprima', sans-serif;
+    font-size: 15px;
+    line-height: 17px;
+    margin-top: 85px;
+}
+.ColListDescript2{
+    font-family: 'Imprima', sans-serif;
+    font-size: 15px;
+    line-height: 17px;
+    margin-top: 45px;
+}
+.footer .container-fluid{
+    background-color: #C0CBA9;
+}
+
+.FooterKiri{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Imprima', sans-serif;
+}
+
+.FooterKanan {
+    float: right;
+}
+.FooterKanan a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Imprima', sans-serif;
+}
+
+.btn-edit {
+    background-color: #68748C;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.btn-edit a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-nav{
+        margin-left: 0px;
+    } 
+  
+    body{
+        background-color: 	#f4f4f8;
+    }
+    .medsos{
+        margin-bottom: 35px;
+    }
+    .marketplace{
+        margin-bottom: 35px;
+    }
+    .MoreInfo{
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    .h1Home{
+        text-align: center;
+        font-family: 'Italianno', cursive;
+        font-size: 48px;
+        padding-top: 40px;
+        padding-bottom: 45px;
+    }
+
+    .tagline-Para{
+        color: white;
+        font-family: 'Imprima', sans-serif;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .FooterKiri{
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: 'Imprima', sans-serif;
+    }
+    
+    .FooterKanan {
+        float: right;
+    }
+    .FooterKanan a{
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: 'Imprima', sans-serif;
+    }
+
+    .navbar-nav{
+        margin-left: 0px;
+    }
+    
+    .navbar-nav a{
+        margin-right: 0px;
+        font-size: medium;
+        color: #362706;
+        text-align: center;
+        font-size: 20px;
+    }
+    .navbar-nav .bot{
+        margin-right: 0px;
+        color: #362706;
+        text-align: center;
+        font-size: 20px;
+    }
+    /* ---------- */
+    .form-input {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .form-input input {
+        width: 100%;
+        height: 35px;
+        padding-left: 40px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        box-shadow: none;
+        border: 1px solid #00000000;
+        border-radius: 50px;
+        outline: none;
+        background: white;
+    }
+    
+    
+    .form-input span {
+        position: absolute;
+        top: 10px;
+        padding-left: 15px;
+        color: #828282;
+    }
+    
+    
+    .form-input input::placeholder {
+        color: #454b69;
+        padding-left: 0px;
+    }
+    
+    
+    .form-input input:focus,
+    .form-input input:valid {
+    border: 2px solid #007acc;
+    }
+    
+    
+    .form-input input:focus::placeholder {
+        color: black;;
+    }
+
+    
+}
