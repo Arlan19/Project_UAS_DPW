@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontend/libraries/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="frontend/style/PickUp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <title>T.A. Camp</title>
+</head>
+<body>
+  <section class="Navigasi">
+    <nav class="navbar navbar-expand-lg navbar-light warna-navigasi">
+        <div class="container-fluid">
+          <img src="frontend/image/Pink Elegant Lash Makeup Brow artist Beauty Logo 1.png" class="logo" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-edit active" aria-current="page" href="Home.html">Packages</a>
+              <a class="nav-edit" href="Category.html">Tours</a>
+              <a class="nav-edit" href="AboutUs.html">About Us</a>
+              <a class="nav-edit" href="#">Contact Us</a>
+              <a class="nav-edit" href="SignIn.html">
+                <div class="bot">
+                  <img src="frontend/image/Elegant Animated Logo design With Flower.png" class="logoProfile" alt="">
+                </div>
+              </a>
+              <a class="nav-edit" href="Charts.html">
+                <div class="bot">
+                  <img src="frontend/image/Elegant Animated Logo design With Flower(21) 2.png" class="logoKeranjang" alt="">
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+      
+      <section class="Pick_Up">
+          <div class="container-fluid">
+            <div class="SeacrhBar text-center d-none d-md-block">
+                <form class="form-box px-3">
+                    <div class="form-input">
+                        <span class="d-none d-md-block">
+                            <i class="bi bi-search"></i>
+                        </span>
+                        <input type="search" name="" placeholder="Search" tabindex="10" required>
+                    </div>
+                </form>
+              </div>
+              <h2 class="h2Booking">Pick Up</h2>
+              <div class="row">
+                  <div class="col-md-5">
+                      <!-- //////////////////////////////////////// -->
+                      <h3 class="h3Booking mt-3">ALAMAT JEMPUTAN</h3>
+                      <div class="text-alamat">
+                          <div class="mb-3">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-outline-secondary btn-edit2">Tambahkan Alamat</button>
+                      <!-- //////////////////////////////////////// -->
+                      <h3 class="h3Booking mt-2">WAKTU PEMINJAMAN</h3>
+                      <div class="tanggal-booking">
+                          <input type="date" name="dateofbirth" id="dateofbirth">
+                          <p class="sd-booking">s/d</p>
+                          <input type="date" name="dateofbirth" id="dateofbirth">                          
+                        </div>
+                      <!-- //////////////////////////////////////// -->
+                      <h3 class="h3Booking mt-3">WAKTU JEMPUT</h3>
+                      <div class="waktu-PickUp">
+                        <input type="time" id="appt" name="appt"
+                               min="09:00" max="18:00" required>                 
+                    </div>
+                      <!-- //////////////////////////////////////// -->
+                      <h3 class="h3Booking mt-3">TANGGAL JEMPUT</h3>
+                      <div class="waktu-PickUp">
+                        <input type="date" name="dateofbirth" id="dateofbirth">                
+                    </div>
+                    <!-- //////////////////////////////////////// -->
+                    <h3 class="h3Booking mt-3">METODE PEMBAYARAN</h3>
+                    <p class="paraMP">Pilih Metode Pembayaran</p>
+                    <div class="pemba-metod">
+                        <select class="form-select-produk" aria-label="Default select example">
+                            <option selected>Transfer Bank</option>
+                            <option value="1">BRI</option>
+                            <option value="2">BNI</option>
+                            <option value="3">BSI</option>
+                            <option value="4">Lainya..</option>
+                        </select>
+                        <select class="form-select-produk" aria-label="Default select example">
+                            <option selected>QRIS</option>
+                            <option value="1">Brimo</option>
+                            <option value="2">ShoppePay</option>
+                            <option value="3">Dana</option>
+                            <option value="4">Lainya..</option>
+                        </select>
+                        <select class="form-select-produk" aria-label="Default select example">
+                            <option selected>Indomaret/Alfamrt</option>
+                            <option value="1">Indomaret</option>
+                            <option value="2">Alfamrt</option>
+                        </select>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                      <div class="trolii">
+                          <h2 class="h2Booking1">Summary</h2>
+                          <p class="harga-paket">1 item di keranjang</p>
+                          <br>
+                          <img class="garis" src="frontend/image/Line 48.png" alt="">
+                          <div class="row text-center">
+                              <div class="col-md-4">
+                                  <img src="frontend/image/gambar kategori 1.png" alt="">
+                              </div>
+                              <div class="col-md-4">
+                                <p class="para-paket">Mongar Ultralight Two Men Tent</p>
+                                <p class="harga-angka">Rp. 000.000,00</p>
+                              </div>
+                              <div class="col-md-4">
+                                <select class="form-select-produk-angka" aria-label="Default select example">
+                                    <option selected>1</option>
+                                    <option value="1">2</option>
+                                    <option value="2">3</option>
+                                </select>
+                              </div>
+                          </div>
+                          <img class="garis mt-2" src="frontend/image/Line 48.png" alt="">
+                          <div class="row">
+                              <div class="col-md-3">
+                                <p class="para-paket1">Sub Total</p>
+                              </div>
+                              <div class="col-md-6">
+
+                              </div>
+                              <div class="col-md-3">
+                                <p class="harga-angka">Rp. 000.000,00</p>
+                              </div>
+                          </div>
+                          <img class="garis mt-2" src="frontend/image/Line 48.png" alt="">
+                          <div class="row">
+                              <div class="col-md-3">
+                                  <p class="para-paket1 fw-bold">Total</p>
+                                </div>
+                                <div class="col-md-6">
+                                    
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="harga-angka">Rp. 000.000,00</p>
+                                </div>
+                            </div>
+                            <img class="garis mt-2" src="frontend/image/Line 48.png" alt="">
+                            <button type="button" class="btn btn-outline-secondary btn-edit3"> <a href="TerimaKasih.html">Pick Up</a> </button>
+                            
+                      </div>
+                  </div>
+            </div>
+          </div>
+      </section>
+      
+
+      <section class="footer d-md-block d-none">
+        <div class="container-fluid ">
+          <div class="row px-2 pt-5">
+            <div class="col-md-3 mb-2">
+              <h4 class="h4footer">BANTUAN</h4>
+              <div class="bantuan">
+                <a class="fot-ban" href="">Pengiriman</a>
+                <a class="fot-ban" href="">Pembayaran</a>
+                <a class="fot-ban" href="">Tentang Akun Anda</a>
+                <a class="fot-ban" href="">Tentang Product</a>
+                <a class="fot-ban" href="">Penukaran dan Pengembalian</a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <h4 class="h4footer">T.A CAMP</h4>
+              <div class="camp">
+                <a class="fot-ban" href="">Lokasin</a>
+                <a class="fot-ban" href="">Tentang Kami</a>
+              </div>
+            </div>
+            <div class="col-md-3 text-center">
+              <h4 class="h4footer">LAYANAN PELANGGAN</h4>
+              <P class="fot-lay text-center">09.00-17.00</P>
+              <img class="gambar-lay" src="frontend/image/Screenshot_14 2.png" alt="">
+            </div>
+            <div class="col-md-3">
+              <h4 class="h4footer">DAFTAR UNTUK INFO PROMO LAINNYA</h4>
+              <div class="input-email">
+                <form>
+                  <div class="mb-3">
+                    <label class="form-label"></label>
+                    <input type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Masukan alamat email anda">
+                  </div>
+                </form>
+              </div>              
+          </div>
+          <img src="frontend/image/Line 42.png" alt="">
+          <p class="fot-lay text-center">Copyright@2022. T.A CAMP</p>
+        </div>
+      </section>
+      
+      <section class="footer d-block d-md-none">
+        <div class="container-fluid ">
+          <div class="footer-mobile">
+            <h4 class="h4footer">DAFTAR UNTUK INFO PROMO <br> LAINNYA</h4>
+            <div class="input-email">
+              <form>
+                <div class="mb-3">
+                  <label class="form-label"></label>
+                  <input type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Masukan alamat email anda">
+                </div>
+              </form>
+            </div>              
+        </div>
+        <select class="form-select" aria-label="Default select example">
+          <option selected><h4 class="h4footer">BANTUAN</h4></option>
+          <option value="1"><a class="fot-ban" href="">Pengiriman</a></option>
+          <option value="2"><a class="fot-ban" href="">Pembayaran</a></option>
+          <option value="3"><a class="fot-ban" href="">Tentang Akun Anda</a></option>
+          <option value="3"><a class="fot-ban" href="">Tentang Product</a></option>
+          <option value="3"> <a class="fot-ban" href="">Penukaran dan Pengembalian</a></option>
+        </select>
+        <select class="form-select" aria-label="Default select example">
+          <option selected><h4 class="h4footer">T.A CAMP</h4></option>
+          <option value="1"><a class="fot-ban" href="">Lokasi</a></option>
+          <option value="2"><a class="fot-ban" href="">Tentang Kami</a></option>
+        </select>
+        <select class="form-select" aria-label="Default select example">
+          <option selected><h4 class="h4footer">LAYANAN PELANGGAN</h4></option>
+          <option value="1"><P class="fot-lay text-center">09.00-17.00</P></option>
+        </select>
+          <p class="fot-lay text-center">Copyright@2022. T.A CAMP</p>
+      </section>
+      
+
+     
+    <script src="frontend/libraries/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

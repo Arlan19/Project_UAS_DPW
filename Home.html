@@ -16,115 +16,250 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Imprima&family=Italianno&display=swap" rel="stylesheet">  
+    <script src="frontend/libraries/jquery-3.6.0.js"></script>
     <title>T.A. Camp</title>
 </head>
 <body>
     <section class="Navigasi">
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                  <img src="frontend/image/Screenshot_1.png" class="logo" alt="">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-edit active" aria-current="page" href="#">Packages</a>
-                      <a class="nav-edit" href="#">Tours</a>
-                      <a class="nav-edit" href="#">Contact Us</a>
-                      <a class="nav-edit" href="#">About Us</a>
-                      <div class="bot">
-                        <img src="frontend/image/Elegant Animated Logo design With Flower.png" class="logo" alt="">
-                      </div>
+        <nav class="navbar navbar-expand-lg navbar-light warna-navigasi">
+            <div class="container-fluid">
+              <img src="frontend/image/Pink Elegant Lash Makeup Brow artist Beauty Logo 1.png" class="logo" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-edit active" aria-current="page" href="Home.html">Packages</a>
+                  <a class="nav-edit" href="Category.html">Tours</a>
+                  <a class="nav-edit" href="AboutUs.html">About Us</a>
+                  <a class="nav-edit" href="#">Contact Us</a>
+                  <a class="nav-edit" href="SignIn.html">
+                    <div class="bot">
+                      <img src="frontend/image/Elegant Animated Logo design With Flower.png" class="logoProfile" alt="">
                     </div>
-                  </div>
-                </div>
-              </nav>
-        </div>
-      </section>
-      <section class="Home">
-          <div class="container-fluid">
-              <h1 class="h1Home">Find The <br> Perfect Tool For Your Journey</h1>
-              <div class="SeacrhBar text-center">
-                <form class="form-box px-3">
-                    <div class="form-input">
-                        <span class="d-none d-md-block">
-                            <i class="bi bi-search"></i>
-                        </span>
-                        <input type="search" name="" placeholder="Search" tabindex="10" required>
+                  </a>
+                  <a class="nav-edit" href="Charts.html">
+                    <div class="bot">
+                      <img src="frontend/image/Elegant Animated Logo design With Flower(21) 2.png" class="logoKeranjang" alt="">
                     </div>
-                </form>
-              </div>
-              <div class="tagline">
-                  <p class="tagline-Para text-center d-none d-md-block">Pesan bersama kami dan temukan lebih banyak <br> pilihan paket dan produk lainnya yang tersedia <br> bagi  pengunjung yang bebas anda pilih.</p>
-                  <p class="tagline-Para text-center d-block d-md-none ">Pesan bersama kami dan temukan lebih banyak <br> pilihan paket dan produk lainnya yang tersedia <br> bagi  pengunjung yang bebas anda pilih.</p>
-              </div>
-          </div>
-      </section>
-
-      <section class="ColList mt-2">
-          <div class="ColList-title">
-              <div class="container-fluid">
-                  <h2 class="ColList-para text-center">COLLECTION LIST</h2>
-              </div>
-              <div class="row">
-                  <div class="col-md-7 col-sm-12 d-none d-md-block">
-                      <!-- paket 2 -->
-                      <div class="row">
-                          <div class="col-md-5 text-center paket23">
-                              <h2 class="h2CollectionList">Paket II</h2>
-                              <img src="frontend/image/Elegant Animated Logo design With Flower(2).png" class="logoPaket" alt="">
-                          </div>
-                          <div class="col-md-5 text-center">
-                              <p class="ColListDescript">Tenda Quechua Arpenaz 4 Family,<br> Hammock Sleeping Bag Combo,<br> Lentera Camping Tenaga Solar <br> SX-5800T</p>
-                              <button type="button" class="btn btn-edit"><a href="">Read more</a></button>
-                              <button type="button" class="btn btn-edit "><a href="">Booking</a> </button>
-                          </div>
-                          <div class="col-md-2"></div>   
-                      </div>
-                      <!-- paket 3 -->
-                      <div class="row">
-                          <div class="col-md-5 text-center paket23">
-                              <h2 class="h2CollectionList">Paket III</h2>
-                              <img src="frontend/image/Elegant Animated Logo design With Flower(1).png" class="logoPaket" alt="">
-                          </div>
-                          <div class="col-md-5 text-center">
-                              <p class="ColListDescript">Tenda 2-Person Sundome® Dome<br> Camping Tent, Fireflies Lantern -<br> Orange, Cooking Set DS 200</p>
-                              <button type="button" class="btn btn-edit"><a href="">Read more</a></button>
-                              <button type="button" class="btn btn-edit "><a href="">Booking</a> </button>
-                          </div>
-                          <div class="col-md-2"></div>   
-                      </div>
-
-                  </div>
-                  <!-- paket 1 -->
-                  <div class="col-md-5 col-sm-12 text-center">
-                      <div class="paket1">
-                          <br>
-                          <div class="paket1v2">
-                              <h2 class="h2CollectionList mt-5">Paket I</h2>
-                              <img src="frontend/image/Elegant Animated Logo design With Flower(2).png" class="logoPaket" alt="">
-                              <p class="ColListDescript2">Tenda 2-Person Sundome® Dome<br> Camping Tent, Fireflies Lantern -<br> Orange, Cooking Set DS 200</p>
-                              <button type="button" class="btn btn-edit"><a href="">Read more</a></button>
-                              <button type="button" class="btn btn-edit "><a href="">Booking</a> </button>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <section class="footer mt-5">
-        <div class="container-fluid">
-            <div class="container pt-2 pb-2">
-                <a class="FooterKiri" href="">T.A Comp</a>
-                <div class="FooterKanan">
-                    <a  href="">Lihat Lainnya...</a>
-    
+                  </a>
                 </div>
+              </div>
             </div>
+          </nav>
+        </section>
+      <section class="Home">
+          <div class="homeBg">
+              <div class="container-fluid">
+                  <h1 class="h1Home">Find The Perfect Tool <br> For Your Journey</h1>
+                  <div class="SeacrhBar text-center">
+                    <form class="form-box px-3">
+                        <div class="form-input">
+                            <span class="d-none d-md-block">
+                                <i class="bi bi-search"></i>
+                            </span>
+                            <input type="search" name="" placeholder="Search" tabindex="10" required>
+                        </div>
+                    </form>
+                  </div>
+              </div>
+          </div>
+      </section> 
+      
+      <section class="item-carausek">
+        <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="card" style="background-image: url(frontend/image/Rectangle\ 118.png); background-repeat: no-repeat; background-size: cover;">
+                      <div class="img-wrapper"></div>
+                      <div class="card-body">
+                          <h5 class="card-title">TENDA</h5>                          
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="card" style="background-image: url(frontend/image/Rectangle\ 119.png); background-repeat: no-repeat; background-size: cover;">
+                      <div class="img-wrapper"> </div>
+                      <div class="card-body">
+                          <h5 class="card-title">PENERANGAN</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="card" style="background-image: url(frontend/image/Rectangle\ 120.png); background-repeat: no-repeat; background-size: cover;">
+                      <div class="img-wrapper"> </div>
+                      <div class="card-body">
+                          <h5 class="card-title">ALAT MASAK</h5>
+                         
+                      </div>
+                  </div>
+              </div>             
+              <div class="carousel-item">
+                  <div class="card" style="background-image: url(frontend/image/hammock.jpg); background-repeat: no-repeat; background-size: cover;">
+                      <div class="img-wrapper"> </div>
+                      <div class="card-body">
+                          <h5 class="card-title">HAMMOCK</h5>                    
+                      </div>
+                  </div>
+              </div>             
+              <div class="carousel-item">
+                  <div class="card" style="background-image: url(frontend/image/sleeping\ bag.jpg); background-repeat: no-repeat; background-size: cover;">
+                      <div class="img-wrapper"> </div>
+                      <div class="card-body">
+                          <h5 class="card-title">SLEEPING BAG</h5>
+                      </div>
+                  </div>
+              </div>             
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+      </section>
+
+      <section class="barang lain">
+        <div class="terbaru text-center">
+          <img class="garistombol " src="frontend/image/Line 51.png" alt="">
+          <div class="kata-kata text-center">
+            <p class="terbaru">TERBARU</p>
+            <p class="para-lainnya "> <a href="">Lihat Lainnya ></a>  </p>
+          </div>
+          <img class="garistombol2 " src="frontend/image/Line 51.png" alt="">
+        </div>
+        <div class="row Packages-Kategori">
+                  <div class="col-md-4 text-center">
+                    <img class="gambar-paket" src="frontend/image/gambar kategori 1.png" alt="">
+                    <p class="para-paket">Mongar Ultralight Two Men Tent</p>
+                    <div class="harga-paket">
+                      <p class="harga-angka">Rp. 000.000,00</p>
+                      <p>/hari</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 text-center">
+                    <img class="gambar-paket" src="frontend/image/gambar kategori 2.png" alt="">
+                    <p class="para-paket">Outdoor Java 4 pro</p>
+                    <div class="harga-paket">
+                      <p class="harga-angka">Rp. 000.000,00</p>
+                      <p>/hari</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 text-center">
+                    <img class="gambar-paket" src="frontend/image/gambar kategori 3.png" alt="">
+                    <p class="para-paket">Guardian 8p tens</p>
+                    <div class="harga-paket">
+                      <p class="harga-angka">Rp. 000.000,00</p>
+                      <p>/hari</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 text-center">
+                    <img class="gambar-paket" src="frontend/image/gambar kategori 1.png" alt="">
+                    <p class="para-paket">Mongar Ultralight Two Men Tent</p>
+                    <div class="harga-paket">
+                      <p class="harga-angka">Rp. 000.000,00</p>
+                      <p>/hari</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 text-center">
+                    <img class="gambar-paket" src="frontend/image/gambar kategori 2.png" alt="">
+                    <p class="para-paket">Outdoor Java 4 pro</p>
+                    <div class="harga-paket">
+                      <p class="harga-angka">Rp. 000.000,00</p>
+                      <p>/hari</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 text-center">
+                    <img class="gambar-paket" src="frontend/image/gambar kategori 3.png" alt="">
+                    <p class="para-paket">Guardian 8p tens</p>
+                    <div class="harga-paket">
+                      <p class="harga-angka">Rp. 000.000,00</p>
+                      <p>/hari</p>
+                    </div>
+                  </div>
+                  <div class="tombol text-center ">
+                    <button type="button" class="btn btn-edit">Lihat Lainya</button>
+                  </div>
+                </div>
+      </section>
+
+      <section class="footer d-md-block d-none">
+        <div class="container-fluid ">
+          <div class="row px-2 pt-5">
+            <div class="col-md-3 mb-2">
+              <h4 class="h4footer">BANTUAN</h4>
+              <div class="bantuan">
+                <a class="fot-ban" href="">Pengiriman</a>
+                <a class="fot-ban" href="">Pembayaran</a>
+                <a class="fot-ban" href="">Tentang Akun Anda</a>
+                <a class="fot-ban" href="">Tentang Product</a>
+                <a class="fot-ban" href="">Penukaran dan Pengembalian</a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <h4 class="h4footer">T.A CAMP</h4>
+              <div class="camp">
+                <a class="fot-ban" href="">Lokasin</a>
+                <a class="fot-ban" href="">Tentang Kami</a>
+              </div>
+            </div>
+            <div class="col-md-3 text-center">
+              <h4 class="h4footer">LAYANAN PELANGGAN</h4>
+              <P class="fot-lay text-center">09.00-17.00</P>
+              <img class="gambar-lay" src="frontend/image/Screenshot_14 2.png" alt="">
+            </div>
+            <div class="col-md-3">
+              <h4 class="h4footer">DAFTAR UNTUK INFO PROMO LAINNYA</h4>
+              <div class="input-email">
+                <form>
+                  <div class="mb-3">
+                    <label class="form-label"></label>
+                    <input type="email" class="form-control" i" aria-describedby="emailHelp" placeholder="Masukan alamat email anda">
+                  </div>
+                </form>
+              </div>              
+          </div>
+          <img src="frontend/image/Line 42.png" alt="">
+          <p class="fot-lay text-center">Copyright@2022. T.A CAMP</p>
         </div>
       </section>
-    <script src="frontend/libraries/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+      
+      <section class="footer d-block d-md-none">
+        <div class="container-fluid ">
+          <div class="footer-mobile">
+            <h4 class="h4footer">DAFTAR UNTUK INFO PROMO <br> LAINNYA</h4>
+            <div class="input-email">
+              <form>
+                <div class="mb-3">
+                  <label class="form-label"></label>
+                  <input type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Masukan alamat email anda">
+                </div>
+              </form>
+            </div>              
+        </div>
+        <select class="form-select" aria-label="Default select example">
+          <option selected><h4 class="h4footer">BANTUAN</h4></option>
+          <option value="1"><a class="fot-ban" href="">Pengiriman</a></option>
+          <option value="2"><a class="fot-ban" href="">Pembayaran</a></option>
+          <option value="3"><a class="fot-ban" href="">Tentang Akun Anda</a></option>
+          <option value="3"><a class="fot-ban" href="">Tentang Product</a></option>
+          <option value="3"> <a class="fot-ban" href="">Penukaran dan Pengembalian</a></option>
+        </select>
+        <select class="form-select" aria-label="Default select example">
+          <option selected><h4 class="h4footer">T.A CAMP</h4></option>
+          <option value="1"><a class="fot-ban" href="">Lokasi</a></option>
+          <option value="2"><a class="fot-ban" href="">Tentang Kami</a></option>
+        </select>
+        <select class="form-select" aria-label="Default select example">
+          <option selected><h4 class="h4footer">LAYANAN PELANGGAN</h4></option>
+          <option value="1"><P class="fot-lay text-center">09.00-17.00</P></option>
+        </select>
+          <p class="fot-lay text-center">Copyright@2022. T.A CAMP</p>
+      </section>
+      <script src="frontend/libraries/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+      <script src="frontend/scripts/Home.js"></script>
 </body>
 </html>

@@ -12,26 +12,32 @@
     width: 40px;
     border-radius: 100px;
     margin-top: -10px;
-    margin-left: 630px;
 }
 
 .logoKeranjang{
     width: 40px;    
-    margin-left: 0px;
     border-radius: 100px;
     margin-top: -10px;
 }
+
+
+.nav-logo{
+    display: inline-flex;
+    margin-left: 45%;
+}
+
+
 
 .warna-navigasi{
     background-color: #000000;
 }
 
 .navbar-nav{
-    margin-left: 45px;
+    margin-left: 4%;
 }
 
 .navbar-nav a{
-    margin-right: 40px;
+    margin-right: 6%;
     font-family: 'Kadwa', serif;
     font-weight: 400;
     font-size: 20px;
@@ -46,7 +52,7 @@
 
 
 .form-input {
-    padding-left: 946px;
+    padding-left: 60%;
     padding-right: 0px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -151,7 +157,7 @@ select option {
 }
 .garis{
     margin-left: 48px;
-    width: 350px;
+    width: 80%;
     margin-top: -20px;
 }
 
@@ -221,7 +227,7 @@ select option {
 .btn-edit{
     height: 38px;
     background-color: #FFFFFF;
-    padding: 0px 300px;
+    padding: 0px 40%;
     margin-top: 20px;
 }
 
@@ -291,6 +297,7 @@ select option {
 .kategori-mobile .navbar-light .navbar-toggler-icon{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+
 @media only screen and (max-width: 600px) {
     .navbar-nav{
         margin-left: 0px;

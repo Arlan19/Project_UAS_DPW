@@ -1,77 +1,78 @@
+.Home{
+    background-image: url(/frontend/image/people-4817872_1920\ 1.png);
+    background-size: 1550px;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 180px;
+}
+
+.h1Home{
+    font-family: 'Kadwa', serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 72px;
+}
+
 .logo{
     width: 81px;
-    border-radius: 100px;
+    border-radius: 0px;
     margin-top: 0px;
 }
 
-.logoPaket{
-    width: 190px;
-    border-style: solid;
-    border-color: #C7DAC1;
-    border-width: 8px;
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+.logoProfile{
+    width: 40px;
+    border-radius: 100px;
+    margin-top: -10px;
+    margin-left: 630px;
+}
+
+.logoKeranjang{
+    width: 40px;    
+    margin-left: 0px;
+    border-radius: 100px;
+    margin-top: -10px;
+}
+
+.warna-navigasi{
+    background-color: #000000;
+}
 
 .navbar-nav{
-    margin-left: 600px;
+    margin-left: 45px;
 }
 
 .navbar-nav a{
     margin-right: 40px;
-    font-size: large;
-    color: #362706;
-    text-align: center;
+    font-family: 'Kadwa', serif;
+    font-weight: 400;
     font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
 }
+
 
 .nav-edit{
     text-decoration: none;
     margin: 22px 0px;
 }
 
-.Home .container-fluid{
-    background: url(/frontend/image/Olive\ Green\ Photocentric\ Travel\ Bio\ Link\ Website.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.h1Home{
-    text-align: center;
-    font-family: 'Italianno', cursive;
-    font-size: 64px;
-    padding-top: 40px;
-    padding-bottom: 45px;
-}
-
-.tagline{
-    padding-bottom: 40px;
-}
-
-.tagline-Para{
-    color: white;
-    font-family: 'Imprima', sans-serif;
-    font-size: 24px;
-}
-
-.ColList-title .container-fluid{
-    background-color: #C0CBA9;
-}
-
-.ColList-para{
-    font-family: 'IM Fell English SC', serif;
-    font-size: 20px;
-    padding: 20px 0px;
-}
 
 .form-input {
-    padding-left: 246px;
-    padding-right: 246px;
+    padding-left: 192px;
+    padding-right: 192px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .form-input input {
     width: 100%;
-    height: 45px;
+    height: 50px;
     padding-left: 40px;
     margin-bottom: 20px;
     box-sizing: border-box;
@@ -79,21 +80,21 @@
     border: 1px solid #00000000;
     border-radius: 50px;
     outline: none;
-    background: white;
+    background: #FFFFFF;
 }
 
 .form-input span {
     position: relative;
-    top: 39px;
+    top: 42px;
     font-size: 25px;
     padding-left: 0px;
     float: right;
     padding-right: 25px;
-    color: black;
+    color: #000000;
 }
 
 .form-input input::placeholder {
-    color: #454b69;
+    color: #000000;
     padding-left: 0px;
 }
 
@@ -101,112 +102,327 @@
 .form-input input:focus,
 .form-input input:valid {
 border: 2px solid #007acc;
+background-color: #FFFFFF;
 }
 
 .form-input input:focus::placeholder {
-    color: black;
+    color: #3f3f46;
 }
 
+.h2kategori{
+    font-family: 'Kadwa', serif;
+    font-weight: 700;
+    font-size: 32px;
+}
 
-.navigasi{
+.h3kategori{
+    font-family: 'Kadwa', serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 48px;
+}
+
+.input-group-text{
+    margin-left: 70px;
+    border: 0px;
     background-color: white;
 }
 
-.btn-edit{
-    border-radius: 20px;
-    padding: 8px 20px;
-    margin-top: 45px;
-    margin-bottom: 40px;
+.input-group .form-control{
+    border: 0px;
+    background-color: white;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 40px;
 }
-.head-kat{
+
+.ParaKategori{
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+input::-webkit-input-placeholder {
+    color: #000000 60% !important;
+}
+
+select option {
+    background-color:  #201C1C !important;
+    color:  #FCFCFC !important;
+    font-family: 'Kadwa', serif;
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 400;    
+}
+
+.form-select{
+    background-color: #201C1C;
+    border: 0px;
+    color: #FCFCFC;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    padding-left: 50px;
+    
+}
+.garis{
+    margin-left: 48px;
+    width: 350px;
+    margin-top: -20px;
+}
+
+.navigasi{
+    display: flex;
     margin-top: 40px;
 }
-.h5-edit{
-    color: #828282;
-}
-.text-edit{
-    padding: 0px 25px;
-}
-.marketplace a{
+
+.navigasi a{
     text-decoration: none;
-    padding: 0px 15px;
-    color: #828282;
-}
-.h2-edit{
-    color: #444444;
-}
-.MoreInfo{
-    margin-top: 150px;
-    margin-bottom: 120px;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #000000 ;
 }
 
-.h2CollectionList{
-    font-family: 'Imprima', sans-serif;
+.Packages-Kategori{
+    background-color:;
+    margin-right: 0px;
+    padding: 0px 0px;
 }
 
-.paket23{
-    background-image: url(/frontend/image/Ellipse\ 1.png);
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: 120px;
-}
-.paket1{
-    background-image: url(/frontend/image/Rectangle\ 54.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 26px;
-}
-.paket1v2{
-    background-image: url(/frontend/image/Rectangle\ 53.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.gambar-paket{
+    width: 190px;
+    height: 250px;
 }
 
-.ColListDescript{
-    font-family: 'Imprima', sans-serif;
-    font-size: 15px;
-    line-height: 17px;
-    margin-top: 85px;
-}
-.ColListDescript2{
-    font-family: 'Imprima', sans-serif;
-    font-size: 15px;
-    line-height: 17px;
-    margin-top: 45px;
-}
-.footer .container-fluid{
-    background-color: #C0CBA9;
-}
-
-.FooterKiri{
-    color: #FFFFFF;
+.para-paket{
     text-decoration: none;
-    font-size: 24px;
-    font-family: 'Imprima', sans-serif;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000000 ;
 }
 
-.FooterKanan {
-    float: right;
-}
-.FooterKanan a{
-    color: #FFFFFF;
+.harga-paket{
     text-decoration: none;
-    font-size: 24px;
-    font-family: 'Imprima', sans-serif;
+    font-family: 'Kadwa', serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000000 ;
+    display: inline-flex;
 }
 
-.btn-edit {
-    background-color: #68748C;
-    border-radius: 6px;
+.garis-mobile{
+    width: 440px;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+
+.para-tenda{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000000 ;
+}
+
+.harga-angka{
+    color: #FF0000;
+}
+
+.btn-edit{
+    height: 38px;
+    background-color: #000000;
+    padding: 0px 300px;
     margin-top: 20px;
+    color: #FCFCFC;
 }
-.btn-edit a {
-    color: #fff;
+
+.footer{
+    background-color: #201C1C;
+    margin-top: 70px;
+}
+
+.h4footer{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #FCFCFC ;
+    text-align: center;
+}
+
+.fot-ban{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #FCFCFC ;    
+}
+
+.bantuan{
+    display: grid;
+    margin-left: 125px;
+}
+
+.camp{
+    display: grid;
+    margin-left: 130px;
+}
+
+.fot-lay{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #FCFCFC ;    
+}
+
+.gambar-lay{
+    width: 220px;
+}
+
+.input-email{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.input-email input::-webkit-input-placeholder {
+    color: #000000 60% !important;
+    text-align: center;
+}
+
+.Copy-Right{
+    background-color: #201C1C;
+    margin-top: 1px;
+}
+
+@media (min-width: 768px) {
+    .carousel-inner {
+      display: flex;
+    }
+    .carousel-item {
+      margin-right: 0;
+      flex: 0 0 33.333333%;
+      display: block;
+    }
+  }
+
+.carousel-inner{
+    padding: 1em;
+}
+.card{
+    margin: 0 .5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+}
+.card-title{
+    font-family: 'Kadwa', serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 90px;
+}
+
+.garistombol{
+    margin-left: 0px;
+    width: 1420px;
+    margin-top: 60px;
+    
+}
+.garistombol2{
+    margin-left: 0px;
+    width: 1420px;
+    margin-top: -55px;
+    
+}
+
+.para-lainnya a{
+    margin-left: 1240px;
+    color: #FF0000;
+    font-family: 'Kadwa', serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
     text-decoration: none;
 }
+
+.terbaru{
+    margin-left: 33px;
+    color: #000000;
+    font-family: 'Kadwa', serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.kata-kata{
+    display: flex;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    background-color: #e1e1e1;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card .img-wrapper {
+    max-width: 100%;
+    height: 13em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img{
+    max-height: 100%;
+  }
+
+@media screen and (max-width: 1366px) {
+    
+    
+    
+} 
 
 @media only screen and (max-width: 600px) {
+    .navbar-nav{
+        margin-left: 0px;
+    }
+    .navbar-nav a{
+        margin-right: 0px;
+        font-family: 'Kadwa', serif;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .nav-edit{
+        text-decoration: none;
+        margin: 22px 0px;
+    }
+    .logoProfile{
+        width: 40px;
+        border-radius: 100px;
+        margin-top: -10px;
+        margin-left: 0px;
+    }
+    
+    .card .img-wrapper {
+        height: 17em;
+      }
+      
     .navbar-nav{
         margin-left: 0px;
     } 
@@ -226,11 +442,7 @@ border: 2px solid #007acc;
     }
 
     .h1Home{
-        text-align: center;
-        font-family: 'Italianno', cursive;
-        font-size: 48px;
-        padding-top: 40px;
-        padding-bottom: 45px;
+        
     }
 
     .tagline-Para{
@@ -257,23 +469,8 @@ border: 2px solid #007acc;
         font-family: 'Imprima', sans-serif;
     }
 
-    .navbar-nav{
-        margin-left: 0px;
-    }
     
-    .navbar-nav a{
-        margin-right: 0px;
-        font-size: medium;
-        color: #362706;
-        text-align: center;
-        font-size: 20px;
-    }
-    .navbar-nav .bot{
-        margin-right: 0px;
-        color: #362706;
-        text-align: center;
-        font-size: 20px;
-    }
+   
     /* ---------- */
     .form-input {
         padding-left: 0px;
@@ -320,5 +517,41 @@ border: 2px solid #007acc;
         color: black;;
     }
 
-    
+    .btn-edit{
+        height: 38px;
+        background-color: #FFFFFF;
+        padding: 0px 70px;
+        margin-top: 20px;
+        border: 1px #000000;
+        border-style: solid;
+    }
+    .garistombol{
+        margin-left: 0px;
+        width: 440px;
+        margin-top: 60px;
+        
+    }
+    .garistombol2{
+        margin-left: 0px;
+        width: 440px;
+        margin-top: -55px;
+        
+    }
+    .para-lainnya a{
+        margin-left: 240px;
+        color: #FF0000;
+        font-family: 'Kadwa', serif;
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .terbaru{
+        margin-left: 20px;
+        color: #000000;
+        font-family: 'Kadwa', serif;
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: 400;
+    }
 }

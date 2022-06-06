@@ -1,0 +1,512 @@
+.logo{
+    width: 81px;
+    border-radius: 0px;
+    margin-top: 0px;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.logoProfile{
+    width: 40px;
+    border-radius: 100px;
+    margin-top: -10px;
+    margin-left: 630px;
+}
+
+.logoKeranjang{
+    width: 40px;    
+    margin-left: 0px;
+    border-radius: 100px;
+    margin-top: -10px;
+}
+
+.warna-navigasi{
+    background-color: #000000;
+}
+
+.navbar-nav{
+    margin-left: 45px;
+}
+
+.navbar-nav a{
+    margin-right: 40px;
+    font-family: 'Kadwa', serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.nav-edit{
+    text-decoration: none;
+    margin: 22px 0px;
+}
+
+
+.form-input {
+    padding-left: 946px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.form-input input {
+    width: 100%;
+    height: 45px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: 1px solid #00000000;
+    border-radius: 50px;
+    outline: none;
+    background: #3f3f46;
+}
+
+.form-input span {
+    position: relative;
+    top: 39px;
+    font-size: 25px;
+    padding-left: 0px;
+    float: right;
+    padding-right: 25px;
+    color: #FCFCFC;
+}
+
+.form-input input::placeholder {
+    color: #FFFFFF;
+    padding-left: 0px;
+}
+
+
+.form-input input:focus,
+.form-input input:valid {
+border: 2px solid #007acc;
+background-color: #FFFFFF;
+}
+
+.form-input input:focus::placeholder {
+    color: #3f3f46;
+}
+
+.input-group-text{
+    margin-left: 70px;
+    border: 0px;
+    background-color: white;
+}
+
+.input-group .form-control{
+    border: 0px;
+    background-color: white;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+input::-webkit-input-placeholder {
+    color: #000000 60% !important;
+}
+
+select option {
+    background-color:  #201C1C !important;
+    color:  #FCFCFC !important;
+    font-family: 'Kadwa', serif;
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 400;    
+}
+
+.form-select{
+    background-color: #201C1C;
+    border: 0px;
+    color: #FCFCFC;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    padding-left: 50px;
+    
+}
+.garis{
+    margin-left: 0px;
+    width: 720px;
+    margin-top: -20px;
+}
+
+.navigasi{
+    display: flex;
+    margin-top: 40px;
+}
+
+.navigasi a{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #000000 ;
+}
+
+.gambar-paket{
+    width: 190px;
+    height: 250px;
+}
+
+.para-paket{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000000 ;
+}
+.para-paket1{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000000 ;
+}
+
+.harga-paket{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000000 ;
+    display: inline-flex;
+}
+
+.trolii{
+    background-color: #F3F3F3;
+    margin-right: 70px;
+    padding: 10px 35px;
+    margin-top: 120px;
+}
+
+.garis-mobile{
+    width: 440px;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+
+.para-tenda{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000000 ;
+}
+
+.para-booking a{
+    text-decoration: underline;
+    font-family: 'Kadwa', serif;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000000 ;
+    margin-left: 430px;
+}
+
+.paraMP{
+    font-family: 'Kadwa', serif;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000000 ;
+    margin-left: 48px;
+}
+
+.pemba-metod{
+    display: grid;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.form-select-produk{
+    background-color: ;
+    border: 1px #000000;
+    border-style: solid;
+    color: #000000;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 100px;
+}
+
+.btn-edit2{
+    margin-left: 400px;
+}
+.btn-edit3{
+    margin-left: 560px;
+    padding: 7px 50px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.btn-edit3 a{
+    text-decoration: none;
+    color: #3f3f46;
+}
+
+.tanggal-booking{
+    display: flex;
+    margin-left: 48px;
+}
+
+.sd-booking{
+    font-family: 'Kadwa', serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000000 ;
+    padding-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.text-alamat{
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.harga-angka{
+    color: #FF0000;
+}
+
+.btn-edit{
+    height: 38px;
+    background-color: #FFFFFF;
+    padding: 0px 300px;
+    margin-top: 20px;
+}
+
+.footer{
+    background-color: #201C1C;
+    margin-top: 70px;
+}
+
+.h4footer{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #FCFCFC ;
+    text-align: center;
+}
+
+.fot-ban{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #FCFCFC ;    
+}
+
+.bantuan{
+    display: grid;
+    margin-left: 125px;
+}
+
+.camp{
+    display: grid;
+    margin-left: 130px;
+}
+
+.fot-lay{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #FCFCFC ;    
+}
+
+.gambar-lay{
+    width: 220px;
+}
+
+.input-email{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.input-email1{
+    margin-right: 48px;
+    margin-left: 48px;
+    
+}
+
+.input-email input::-webkit-input-placeholder {
+    color: #000000 60% !important;
+    text-align: center;
+}
+.input-email1 input::-webkit-input-placeholder {
+    color: #000000 60% !important;
+}
+.input-email1 input {
+    background-color: #F3F3F3;
+}
+
+.text-alamat .form-control{
+    background-color: #F3F3F3;
+}
+
+.Copy-Right{
+    background-color: #201C1C;
+    margin-top: 1px;
+}
+
+.h2Booking{
+    font-family: 'Kadwa', serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+}
+.h2Booking1{
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #000000;
+}
+.h3Booking{
+    font-family: 'Kadwa', serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 48px
+}
+
+.waktu-PickUp label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.waktu-PickUp input,
+label {
+    margin-left: 48px;
+    height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-nav{
+        margin-left: 0px;
+    }
+    .navbar-nav a{
+        margin-right: 0px;
+        font-family: 'Kadwa', serif;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .nav-edit{
+        text-decoration: none;
+        margin: 22px 0px;
+    }
+    .logoProfile{
+        width: 40px;
+        border-radius: 100px;
+        margin-top: -10px;
+        margin-left: 0px;
+    }
+    .gambar-paket{
+        width: 90px;
+        height: 150px;
+    }
+    .Packages-Kategori{
+        background-color: #F8F8F8;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 15px 15px;
+    }
+    .harga-paket{
+        text-decoration: none;
+        font-family: 'Kadwa', serif;
+        font-size: 14px;
+        line-height: 32px;
+        font-weight: 400;
+        color: #000000 ;
+        display: inline-flex;
+    }
+    .para-paket{
+        text-decoration: none;
+        font-family: 'Kadwa', serif;
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 400;
+        color: #000000 ;
+    }
+    .btn-edit{
+        height: 38px;
+        background-color: #FFFFFF;
+        padding: 0px 70px;
+        margin-top: 20px;
+        border: 1px #000000;
+        border-style: solid;
+    }
+    .navigasi{
+        display: flex;
+        margin-top: 40px;
+    }
+    .h3Booking{
+        font-family: 'Kadwa', serif;
+        font-weight: 400;
+        font-size: 16px;
+        margin-left: 45px;
+    }
+    .input-email1{
+        margin-right: 15px;
+        margin-left: 15px;
+        
+    }
+    
+    .input-email1 input::-webkit-input-placeholder {
+        color: #000000 60% !important;
+    }
+    .para-booking a{
+        text-decoration: underline;
+        font-family: 'Kadwa', serif;
+        font-size: 14px;
+        line-height: 32px;
+        font-weight: 400;
+        color: #000000 ;
+        margin-left: 0px;
+        margin-left: 15px;
+    }
+    .btn-edit2{
+        margin-left: 264px;
+    }
+    .trolii{
+        background-color: #F3F3F3;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 10px 35px;
+        margin-top: 40px;
+    }
+    .garis{
+        margin-left: 0px;
+        width: 370px;
+        margin-top: -20px;
+    }
+    .btn-edit3{
+        margin-left: 210px;
+        padding: 7px 50px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    .btn-edit3 a{
+        text-decoration: none;
+        color: #3f3f46;
+    }
+    
+}

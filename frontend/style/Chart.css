@@ -217,6 +217,14 @@ select option {
     border: 1px #000000;
     border-style: solid;
 }
+.btn-edit a{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #3f3f46 ;
+}
 .btn-edit1{
     height: 30px;
     background-color: #FFFFFF;

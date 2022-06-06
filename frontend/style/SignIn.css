@@ -1,13 +1,42 @@
+.logo{
+    width: 81px;
+    border-radius: 0px;
+    margin-top: 0px;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.logoProfile{
+    width: 40px;
+    border-radius: 100px;
+    margin-top: -10px;
+    margin-left: 630px;
+}
+
+.logoKeranjang{
+    width: 40px;    
+    margin-left: 0px;
+    border-radius: 100px;
+    margin-top: -10px;
+}
+
+.warna-navigasi{
+    background-color: #000000;
+}
+
 .navbar-nav{
-    margin-left: 600px;
+    margin-left: 45px;
 }
 
 .navbar-nav a{
     margin-right: 40px;
-    font-size: large;
-    color: #362706;
-    text-align: center;
+    font-family: 'Kadwa', serif;
+    font-weight: 400;
     font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .nav-edit{
@@ -15,322 +44,406 @@
     margin: 22px 0px;
 }
 
-.SignUp{
-    margin-left: 100px;
-    margin-right: 100px;
-    border-style: solid;
-    border-color: #454b69;
-    border-width: 2px;
-    background-image: url(/frontend/image/image\ 3.png);
-    background-repeat: no-repeat;
-    background-position: 800px 250px;
-    background-size: 200px;
+
+.gambar-samping{
+    background-image: url(/frontend/image/Rectangle\ 100.png);
+    background-size:cover;
+    padding-bottom: 1200px;
 }
 
-.SignUp .SignUp-title .container-fluid{
-    background-color: #C0CBA9;
-}
-
-.SignUp-title .container-fluid h1{
-    color:#FFFFFF;
-    font-family: 'Imprima', sans-serif;
-    font-size: 32px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-}
-
-.JoinWithGoogle{
-    display: flex;
-}
-.JoinWithGoogle a{
-    margin-left: 444px;
-}
-
-.JoinWithGoogle p{
-    font-family: 'Inika', serif;
-    margin-left: 40px;
-    font-size: 16px;
-    padding-top: 8px;
-}
-
-.JoinWithFacebook{
-    display: flex;
-}
-.JoinWithFacebook a{
-    margin-left: 444px;
-}
-
-.JoinWithFacebook p{
-    font-family: 'Inika', serif;
-    margin-left: 40px;
-    font-size: 16px;
-    padding-top: 8px;
-}
-
-.logo{
-    width: 59px;
-    border-radius: 100px;
-    border-style: solid;
-    border-color: #C7DAC1;
-    border-width: 4px;
-}
-
-
-.btn-edit{
-    border-radius: 20px;
-    padding: 8px 20px;
-    margin-top: 45px;
-    margin-bottom: 40px;
-    background-color: #68748C;
-    border-radius: 6px;
-    margin-right: 40px;
-    margin-left: 40px;
-}
-
-.btn-edit2{
-    border-radius: 20px;
-    padding: 8px 20px;
-    margin-top: 45px;
-    margin-bottom: 40px;
-    border-radius: 6px;
-    margin-right: 40px;
-    margin-left: 40px;
-}
-
-
-.btn-edit a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.btn-edit2 a {
-    color: #362706;
-    text-decoration: none;
-}
-
-/* -------------------------------------------------- */
 .form-input {
-    padding-left: 246px;
-    padding-right: 246px;
+    padding-left: 178px;
+    padding-right: 0px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-/* set email dan password form inputnya*/
 .form-input input {
     width: 100%;
     height: 45px;
     padding-left: 40px;
+    margin-bottom: 20px;
     box-sizing: border-box;
     box-shadow: none;
     border: 1px solid #00000000;
     border-radius: 50px;
     outline: none;
-    background: white;
-}
-.form-input img {
-    width: 87%;
+    background: #3f3f46;
 }
 
+.form-input span {
+    position: relative;
+    top: 39px;
+    font-size: 25px;
+    padding-left: 0px;
+    float: right;
+    padding-right: 25px;
+    color: #FCFCFC;
+}
 
 .form-input input::placeholder {
-    color: #454b69;
+    color: #FFFFFF;
     padding-left: 0px;
 }
+
 
 .form-input input:focus,
 .form-input input:valid {
 border: 2px solid #007acc;
+background-color: #FFFFFF;
 }
 
 .form-input input:focus::placeholder {
-    color: black;;
+    color: #3f3f46;
 }
 
-.footer .container-fluid{
-    background-color: #C0CBA9;
+.h2kategori{
+    font-family: 'Kadwa', serif;
+    font-weight: 700;
+    font-size: 32px;
 }
 
-.FooterKiri{
-    color: #FFFFFF;
+.h3kategori{
+    font-family: 'Kadwa', serif;
+    font-weight: 400;
+    font-size: 26px;
+    margin-left: 48px;
+}
+.h3kategori_masuk{
+    font-family: 'Kadwa', serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 110px;
+    margin-bottom: 80px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.para-sign a{
+    font-family: 'Kadwa', serif;
+    font-weight: 400;
+    font-size: 16px;
     text-decoration: none;
-    font-size: 24px;
-    font-family: 'Imprima', sans-serif;
+    color: #3f3f46;
 }
-
-.FooterKanan {
-    float: right;
-}
-.FooterKanan a{
-    color: #FFFFFF;
+.para-sign2 a{
+    font-family: 'Kadwa', serif;
+    font-weight: 400;
+    font-size: 30px;
     text-decoration: none;
-    font-size: 24px;
-    font-family: 'Imprima', sans-serif;
+    color: #3f3f46;
 }
 
-@media only screen and (max-width: 600px) {
-    body{
-        background-color: 	#f4f4f8;
-    }
+.btn-edit3{
+    padding: 7px 50px;
+    margin-bottom: 20px;
+    margin-top: 35px;
     
+}
+.btn-edit3 a{
+    text-decoration: none;
+    color: #3f3f46;
+    
+}
+
+.input-email1 input {
+    background-color: #F3F3F3;
+    height: 55px;
+}
+
+.input-email1{
+    margin-right: 48px;
+    margin-left: 48px;
+    margin-top: -15px;
+    
+}
+
+.input-group-text{
+    margin-left: 70px;
+    border: 0px;
+    background-color: white;
+}
+
+.input-group .form-control{
+    border: 0px;
+    background-color: white;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.ParaKategori{
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+input::-webkit-input-placeholder {
+    color: #000000 60% !important;
+}
+
+select option {
+    background-color:  #201C1C !important;
+    color:  #FCFCFC !important;
+    font-family: 'Kadwa', serif;
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 400;    
+}
+
+.form-select{
+    background-color: #201C1C;
+    border: 0px;
+    color: #FCFCFC;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    padding-left: 50px;
+    
+}
+.garis{
+    margin-left: 48px;
+    width: 350px;
+    margin-top: -20px;
+}
+
+.garis-signIn{
+    width: 630px;
+    margin-top: 80px;
+}
+
+.navigasi{
+    display: flex;
+    margin-top: 40px;
+}
+
+.navigasi a{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #000000 ;
+}
+
+.Packages-Kategori{
+    background-color: #F8F8F8;
+    margin-right: 60px;
+    padding: 50px 15px;
+}
+
+.gambar-paket{
+    width: 190px;
+    height: 250px;
+}
+
+.para-paket{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000000 ;
+}
+
+.harga-paket{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000000 ;
+    display: inline-flex;
+}
+
+.garis-mobile{
+    width: 440px;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+
+.para-tenda{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000000 ;
+}
+
+.harga-angka{
+    color: #FF0000;
+}
+
+.btn-edit{
+    height: 38px;
+    background-color: #FFFFFF;
+    padding: 0px 300px;
+    margin-top: 20px;
+}
+
+.footer{
+    background-color: #201C1C;
+    margin-top: 0px;
+}
+
+.h4footer{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #FCFCFC ;
+    text-align: center;
+}
+
+.fot-ban{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #FCFCFC ;    
+}
+
+.bantuan{
+    display: grid;
+    margin-left: 125px;
+}
+
+.camp{
+    display: grid;
+    margin-left: 130px;
+}
+
+.fot-lay{
+    text-decoration: none;
+    font-family: 'Kadwa', serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #FCFCFC ;    
+}
+
+.gambar-lay{
+    width: 220px;
+}
+
+.input-email{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.input-email input::-webkit-input-placeholder {
+    color: #000000 60% !important;
+    text-align: center;
+}
+
+.Copy-Right{
+    background-color: #201C1C;
+    margin-top: 1px;
+}
+
+
+.kategori-mobile .navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+@media only screen and (max-width: 600px) {
     .navbar-nav{
         margin-left: 0px;
     }
-    
     .navbar-nav a{
         margin-right: 0px;
-        font-size: large;
-        color: #362706;
-        text-align: center;
+        font-family: 'Kadwa', serif;
+        font-weight: 400;
         font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
     }
-    
     .nav-edit{
         text-decoration: none;
         margin: 22px 0px;
     }
-
-    .SignUp{
+    .logoProfile{
+        width: 40px;
+        border-radius: 100px;
+        margin-top: -10px;
         margin-left: 0px;
-        margin-right: 0px;
-        border-style: solid;
-        border-color: #454b69;
-        border-width: 0px;
-        background-image: url(none);
-        background-repeat: no-repeat;
-        background-position: 0px 0px;
-        background-size: 0px;
     }
-    
-    .SignUp .SignUp-title .container-fluid{
-        background-color: #C0CBA9;
+    .gambar-paket{
+        width: 90px;
+        height: 150px;
     }
-    
-    .SignUp-title .container-fluid h1{
-        color:#FFFFFF;
-        font-family: 'Imprima', sans-serif;
-        font-size: 32px;
-        padding-top: 13px;
-        padding-bottom: 13px;
+    .Packages-Kategori{
+        background-color: #F8F8F8;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 15px 15px;
     }
-
-    .navbar-nav .bot{
-        margin-right: 0px;
-        color: #362706;
-        text-align: center;
-        font-size: 20px;
+    .harga-paket{
+        text-decoration: none;
+        font-family: 'Kadwa', serif;
+        font-size: 14px;
+        line-height: 32px;
+        font-weight: 400;
+        color: #000000 ;
+        display: inline-flex;
     }
-
-    .JoinWithGoogle{
-        display: flex;
+    .para-paket{
+        text-decoration: none;
+        font-family: 'Kadwa', serif;
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 400;
+        color: #000000 ;
     }
-    .JoinWithGoogle a{
-        margin-left: 100px;
-    }
-    
-    .JoinWithGoogle p{
-        font-family: 'Inika', serif;
-        margin-left: 40px;
-        font-size: 16px;
-        padding-top: 8px;
-    }
-    
-    .JoinWithFacebook{
-        display: flex;
-    }
-    .JoinWithFacebook a{
-        margin-left: 100px;
-    }
-    
-    .JoinWithFacebook p{
-        font-family: 'Inika', serif;
-        margin-left: 40px;
-        font-size: 16px;
-        padding-top: 8px;
-    }
-
-    .form-input {
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-bottom: 20px;
-    }
-    
-    
-    .form-input input {
-        width: 100%;
-        height: 35px;
-        padding-left: 40px;
-        margin-bottom: 20px;
-        box-sizing: border-box;
-        box-shadow: none;
-        border: 1px solid #00000000;
-        border-radius: 50px;
-        outline: none;
-        background: white;
-    }
-    
-    .form-input input::placeholder {
-        color: #454b69;
-        padding-left: 0px;
-    }
-    
-    .form-input input:focus::placeholder {
-        color: black;;
-    } 
-
-    .form-input img {
-        width: 79%;
-    }
-
     .btn-edit{
-        border-radius: 20px;
-        padding: 8px 20px;
-        margin-top: 45px;
-        margin-bottom: 40px;
-        background-color: #68748C;
-        border-radius: 6px;
-        margin-right: 10px;
-        margin-left: 10px;
+        height: 38px;
+        background-color: #FFFFFF;
+        padding: 0px 70px;
+        margin-top: 20px;
+        border: 1px #000000;
+        border-style: solid;
     }
-
-    .btn-edit2{
-        border-radius: 20px;
-        padding: 8px 20px;
-        margin-top: 45px;
-        margin-bottom: 40px;
-        border-radius: 6px;
-        margin-right: 10px;
-        margin-left: 10px;
+    .navigasi{
+        display: flex;
+        margin-top: 40px;
     }
-    
-    
-    .btn-edit a {
-        color: #fff;
-        text-decoration: none;
-        font-size: 14px;
-        font-family: 'Inika', serif;
+    .gambar-samping{
+        background-image: url(/frontend/image/Rectangle\ 138.png);
+        background-size:cover;
+        padding-bottom: 200px;
     }
-    
-    .btn-edit2 a {
-        color: #362706;
-        text-decoration: none;
-        font-size: 14px;
-        font-family: 'Inika', serif;
-    }
-
-    .FooterKiri{
-        color: #FFFFFF;
-        text-decoration: none;
+    .h3kategori{
+        font-family: 'Kadwa', serif;
+        font-weight: 400;
         font-size: 16px;
-        font-family: 'Imprima', sans-serif;
+        margin-left: 48px;
     }
-    
-    .FooterKanan {
-        float: right;
+    .h3kategori_masuk{
+        font-family: 'Kadwa', serif;
+        font-weight: 700;
+        font-size: 24px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        text-align: center;
     }
-    .FooterKanan a{
-        color: #FFFFFF;
-        text-decoration: none;
+    .input-email1 input {
+        background-color: #F3F3F3;
+        height: 45px;
+    }
+    .garis-signIn{
+        width: 390px;
+        margin-top: 40px;
+    }
+    .para-sign2 a{
+        font-family: 'Kadwa', serif;
+        font-weight: 400;
         font-size: 16px;
-        font-family: 'Imprima', sans-serif;
-    }
+        text-decoration: none;
+        color: #3f3f46;
+}
 }
